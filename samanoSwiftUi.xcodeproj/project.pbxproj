@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FACB9319259B43110030965D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB9318259B43110030965D /* AppDelegate.swift */; };
+		FACB931B259B43110030965D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB931A259B43110030965D /* SceneDelegate.swift */; };
+		FACB931D259B43110030965D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB931C259B43110030965D /* ContentView.swift */; };
+		FACB931F259B43130030965D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACB931E259B43130030965D /* Assets.xcassets */; };
+		FACB9322259B43130030965D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACB9321259B43130030965D /* Preview Assets.xcassets */; };
+		FACB9325259B43130030965D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACB9323259B43130030965D /* LaunchScreen.storyboard */; };
+		FACB9330259B43140030965D /* samanoSwiftUiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB932F259B43140030965D /* samanoSwiftUiTests.swift */; };
+		FACB933B259B43140030965D /* samanoSwiftUiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB933A259B43140030965D /* samanoSwiftUiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FACB932C259B43140030965D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FACB930D259B43110030965D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FACB9314259B43110030965D;
+			remoteInfo = samanoSwiftUi;
+		};
+		FACB9337259B43140030965D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FACB930D259B43110030965D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FACB9314259B43110030965D;
+			remoteInfo = samanoSwiftUi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FACB9315259B43110030965D /* samanoSwiftUi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = samanoSwiftUi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACB9318259B43110030965D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FACB931A259B43110030965D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FACB931C259B43110030965D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FACB931E259B43130030965D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FACB9321259B43130030965D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FACB9324259B43130030965D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FACB9326259B43130030965D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FACB932B259B43140030965D /* samanoSwiftUiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = samanoSwiftUiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACB932F259B43140030965D /* samanoSwiftUiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = samanoSwiftUiTests.swift; sourceTree = "<group>"; };
+		FACB9331259B43140030965D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FACB9336259B43140030965D /* samanoSwiftUiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = samanoSwiftUiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACB933A259B43140030965D /* samanoSwiftUiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = samanoSwiftUiUITests.swift; sourceTree = "<group>"; };
+		FACB933C259B43140030965D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FACB9312259B43110030965D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACB9328259B43140030965D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACB9333259B43140030965D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FACB930C259B43110030965D = {
+			isa = PBXGroup;
+			children = (
+				FACB9317259B43110030965D /* samanoSwiftUi */,
+				FACB932E259B43140030965D /* samanoSwiftUiTests */,
+				FACB9339259B43140030965D /* samanoSwiftUiUITests */,
+				FACB9316259B43110030965D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FACB9316259B43110030965D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FACB9315259B43110030965D /* samanoSwiftUi.app */,
+				FACB932B259B43140030965D /* samanoSwiftUiTests.xctest */,
+				FACB9336259B43140030965D /* samanoSwiftUiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FACB9317259B43110030965D /* samanoSwiftUi */ = {
+			isa = PBXGroup;
+			children = (
+				FACB9318259B43110030965D /* AppDelegate.swift */,
+				FACB931A259B43110030965D /* SceneDelegate.swift */,
+				FACB931C259B43110030965D /* ContentView.swift */,
+				FACB931E259B43130030965D /* Assets.xcassets */,
+				FACB9323259B43130030965D /* LaunchScreen.storyboard */,
+				FACB9326259B43130030965D /* Info.plist */,
+				FACB9320259B43130030965D /* Preview Content */,
+			);
+			path = samanoSwiftUi;
+			sourceTree = "<group>";
+		};
+		FACB9320259B43130030965D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FACB9321259B43130030965D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FACB932E259B43140030965D /* samanoSwiftUiTests */ = {
+			isa = PBXGroup;
+			children = (
+				FACB932F259B43140030965D /* samanoSwiftUiTests.swift */,
+				FACB9331259B43140030965D /* Info.plist */,
+			);
+			path = samanoSwiftUiTests;
+			sourceTree = "<group>";
+		};
+		FACB9339259B43140030965D /* samanoSwiftUiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FACB933A259B43140030965D /* samanoSwiftUiUITests.swift */,
+				FACB933C259B43140030965D /* Info.plist */,
+			);
+			path = samanoSwiftUiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FACB9314259B43110030965D /* samanoSwiftUi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACB933F259B43140030965D /* Build configuration list for PBXNativeTarget "samanoSwiftUi" */;
+			buildPhases = (
+				FACB9311259B43110030965D /* Sources */,
+				FACB9312259B43110030965D /* Frameworks */,
+				FACB9313259B43110030965D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = samanoSwiftUi;
+			productName = samanoSwiftUi;
+			productReference = FACB9315259B43110030965D /* samanoSwiftUi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FACB932A259B43140030965D /* samanoSwiftUiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACB9342259B43140030965D /* Build configuration list for PBXNativeTarget "samanoSwiftUiTests" */;
+			buildPhases = (
+				FACB9327259B43140030965D /* Sources */,
+				FACB9328259B43140030965D /* Frameworks */,
+				FACB9329259B43140030965D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FACB932D259B43140030965D /* PBXTargetDependency */,
+			);
+			name = samanoSwiftUiTests;
+			productName = samanoSwiftUiTests;
+			productReference = FACB932B259B43140030965D /* samanoSwiftUiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FACB9335259B43140030965D /* samanoSwiftUiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACB9345259B43140030965D /* Build configuration list for PBXNativeTarget "samanoSwiftUiUITests" */;
+			buildPhases = (
+				FACB9332259B43140030965D /* Sources */,
+				FACB9333259B43140030965D /* Frameworks */,
+				FACB9334259B43140030965D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FACB9338259B43140030965D /* PBXTargetDependency */,
+			);
+			name = samanoSwiftUiUITests;
+			productName = samanoSwiftUiUITests;
+			productReference = FACB9336259B43140030965D /* samanoSwiftUiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FACB930D259B43110030965D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					FACB9314259B43110030965D = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					FACB932A259B43140030965D = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = FACB9314259B43110030965D;
+					};
+					FACB9335259B43140030965D = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = FACB9314259B43110030965D;
+					};
+				};
+			};
+			buildConfigurationList = FACB9310259B43110030965D /* Build configuration list for PBXProject "samanoSwiftUi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FACB930C259B43110030965D;
+			productRefGroup = FACB9316259B43110030965D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FACB9314259B43110030965D /* samanoSwiftUi */,
+				FACB932A259B43140030965D /* samanoSwiftUiTests */,
+				FACB9335259B43140030965D /* samanoSwiftUiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FACB9313259B43110030965D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACB9325259B43130030965D /* LaunchScreen.storyboard in Resources */,
+				FACB9322259B43130030965D /* Preview Assets.xcassets in Resources */,
+				FACB931F259B43130030965D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACB9329259B43140030965D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACB9334259B43140030965D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FACB9311259B43110030965D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACB9319259B43110030965D /* AppDelegate.swift in Sources */,
+				FACB931B259B43110030965D /* SceneDelegate.swift in Sources */,
+				FACB931D259B43110030965D /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACB9327259B43140030965D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACB9330259B43140030965D /* samanoSwiftUiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACB9332259B43140030965D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACB933B259B43140030965D /* samanoSwiftUiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FACB932D259B43140030965D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FACB9314259B43110030965D /* samanoSwiftUi */;
+			targetProxy = FACB932C259B43140030965D /* PBXContainerItemProxy */;
+		};
+		FACB9338259B43140030965D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FACB9314259B43110030965D /* samanoSwiftUi */;
+			targetProxy = FACB9337259B43140030965D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FACB9323259B43130030965D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FACB9324259B43130030965D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FACB933D259B43140030965D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FACB933E259B43140030965D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FACB9340259B43140030965D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"samanoSwiftUi/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = samanoSwiftUi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = samanoSwiftUi.samanoSwiftUi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FACB9341259B43140030965D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"samanoSwiftUi/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = samanoSwiftUi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = samanoSwiftUi.samanoSwiftUi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FACB9343259B43140030965D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = samanoSwiftUiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = samanoSwiftUi.samanoSwiftUiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/samanoSwiftUi.app/samanoSwiftUi";
+			};
+			name = Debug;
+		};
+		FACB9344259B43140030965D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = samanoSwiftUiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = samanoSwiftUi.samanoSwiftUiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/samanoSwiftUi.app/samanoSwiftUi";
+			};
+			name = Release;
+		};
+		FACB9346259B43140030965D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = samanoSwiftUiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = samanoSwiftUi.samanoSwiftUiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = samanoSwiftUi;
+			};
+			name = Debug;
+		};
+		FACB9347259B43140030965D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = samanoSwiftUiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = samanoSwiftUi.samanoSwiftUiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = samanoSwiftUi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FACB9310259B43110030965D /* Build configuration list for PBXProject "samanoSwiftUi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACB933D259B43140030965D /* Debug */,
+				FACB933E259B43140030965D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FACB933F259B43140030965D /* Build configuration list for PBXNativeTarget "samanoSwiftUi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACB9340259B43140030965D /* Debug */,
+				FACB9341259B43140030965D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FACB9342259B43140030965D /* Build configuration list for PBXNativeTarget "samanoSwiftUiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACB9343259B43140030965D /* Debug */,
+				FACB9344259B43140030965D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FACB9345259B43140030965D /* Build configuration list for PBXNativeTarget "samanoSwiftUiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACB9346259B43140030965D /* Debug */,
+				FACB9347259B43140030965D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FACB930D259B43110030965D /* Project object */;
+}
