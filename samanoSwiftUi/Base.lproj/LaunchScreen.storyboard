@@ -16,13 +16,34 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fFu-MI-jOw">
-                                <rect key="frame" x="87" y="384" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="fFu-MI-jOw">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="Wye-pj-cMd">
+                                <rect key="frame" x="97" y="370.5" width="220.5" height="155"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-swift-outlined" translatesAutoresizingMaskIntoConstraints="NO" id="Fe9-a0-tPS">
+                                        <rect key="frame" x="0.0" y="0.0" width="220.5" height="100"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Learn by Doing" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1yj-sj-ZMn">
+                                        <rect key="frame" x="0.0" y="112" width="220.5" height="43"/>
+                                        <fontDescription key="fontDescription" type="system" weight="thin" pointSize="36"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Wye-pj-cMd" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="M5H-g8-D2K"/>
+                            <constraint firstAttribute="bottom" secondItem="fFu-MI-jOw" secondAttribute="bottom" id="XcH-Un-zMM"/>
+                            <constraint firstItem="fFu-MI-jOw" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="beD-Lr-vmg"/>
+                            <constraint firstItem="fFu-MI-jOw" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="fOR-vg-MlX"/>
+                            <constraint firstItem="Wye-pj-cMd" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="qgd-xH-aEm"/>
+                            <constraint firstAttribute="trailing" secondItem="fFu-MI-jOw" secondAttribute="trailing" id="rnt-xe-7eE"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -31,6 +52,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="LaunchScreen" width="2048" height="2048"/>
+        <image name="logo-swift-outlined" width="100" height="100"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
