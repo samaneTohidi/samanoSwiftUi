@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FAA2EE6725CC156C000C259F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA2EE6625CC156C000C259F /* CardView.swift */; };
 		FACB9319259B43110030965D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB9318259B43110030965D /* AppDelegate.swift */; };
 		FACB931B259B43110030965D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB931A259B43110030965D /* SceneDelegate.swift */; };
 		FACB931D259B43110030965D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB931C259B43110030965D /* ContentView.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FAA2EE6625CC156C000C259F /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		FACB9315259B43110030965D /* samanoSwiftUi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = samanoSwiftUi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FACB9318259B43110030965D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FACB931A259B43110030965D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				FACB931C259B43110030965D /* ContentView.swift */,
 				FACB931E259B43130030965D /* Assets.xcassets */,
 				FACB9323259B43130030965D /* LaunchScreen.storyboard */,
+				FAA2EE6625CC156C000C259F /* CardView.swift */,
 				FACB9326259B43130030965D /* Info.plist */,
 				FACB9320259B43130030965D /* Preview Content */,
 			);
@@ -268,6 +271,7 @@
 			files = (
 				FACB9319259B43110030965D /* AppDelegate.swift in Sources */,
 				FACB931B259B43110030965D /* SceneDelegate.swift in Sources */,
+				FAA2EE6725CC156C000C259F /* CardView.swift in Sources */,
 				FACB931D259B43110030965D /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
