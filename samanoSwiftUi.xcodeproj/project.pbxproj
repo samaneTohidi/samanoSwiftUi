@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		FAA2EE6725CC156C000C259F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA2EE6625CC156C000C259F /* CardView.swift */; };
 		FAA2EE6C25CD5F70000C259F /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA2EE6B25CD5F70000C259F /* CardModel.swift */; };
+		FAA2EE7125CD6657000C259F /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA2EE7025CD6657000C259F /* CardData.swift */; };
 		FACB9319259B43110030965D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB9318259B43110030965D /* AppDelegate.swift */; };
 		FACB931B259B43110030965D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB931A259B43110030965D /* SceneDelegate.swift */; };
 		FACB931D259B43110030965D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB931C259B43110030965D /* ContentView.swift */; };
@@ -39,6 +40,7 @@
 /* Begin PBXFileReference section */
 		FAA2EE6625CC156C000C259F /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		FAA2EE6B25CD5F70000C259F /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		FAA2EE7025CD6657000C259F /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
 		FACB9315259B43110030965D /* samanoSwiftUi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = samanoSwiftUi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FACB9318259B43110030965D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FACB931A259B43110030965D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				FACB931A259B43110030965D /* SceneDelegate.swift */,
 				FACB931C259B43110030965D /* ContentView.swift */,
 				FAA2EE6B25CD5F70000C259F /* CardModel.swift */,
+				FAA2EE7025CD6657000C259F /* CardData.swift */,
 				FACB931E259B43130030965D /* Assets.xcassets */,
 				FACB9323259B43130030965D /* LaunchScreen.storyboard */,
 				FAA2EE6625CC156C000C259F /* CardView.swift */,
@@ -275,6 +278,7 @@
 				FACB9319259B43110030965D /* AppDelegate.swift in Sources */,
 				FACB931B259B43110030965D /* SceneDelegate.swift in Sources */,
 				FAA2EE6725CC156C000C259F /* CardView.swift in Sources */,
+				FAA2EE7125CD6657000C259F /* CardData.swift in Sources */,
 				FACB931D259B43110030965D /* ContentView.swift in Sources */,
 				FAA2EE6C25CD5F70000C259F /* CardModel.swift in Sources */,
 			);
